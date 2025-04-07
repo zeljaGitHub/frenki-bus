@@ -1,0 +1,91 @@
+.frenki-section {
+  padding: 60px 20px;
+  background-color: #ffffff;
+  font-family: sans-serif;
+  margin-bottom: 11rem;
+}
+
+.frenki-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 0 auto;
+  width: 80vw;
+}
+
+@media (min-width: 768px) {
+  .frenki-container {
+    flex-direction: row;
+  }
+}
+
+.frenki-text {
+  flex: 1.3;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.p-one {
+  padding-bottom: 5rem;
+}
+
+.p-two {
+  padding-bottom: 5rem;
+}
+
+.frenki-text ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.frenki-text li {
+  margin-bottom: 5px;
+}
+
+.frenki-images {
+  position: relative;
+  flex: 1;
+  min-height: 400px;
+  margin-top: 20px;
+  left: 1%;
+  top: 19%;
+}
+
+/* Opšte pravilo za sve slike */
+.frenki-images img {
+  position: absolute;
+  width: 60%; /* Podrazumevana vrednost */
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+/* SPECIFIČNIJE PRAVILO (jače od gornjeg) */
+.frenki-images .img-one {
+  width: 65%; /* Sada će imati prednost! */
+  top: -7%;
+  left: 18%;
+  transform: rotate(4deg);
+  z-index: 1;
+}
+
+.frenki-images .img-two {
+  width: 70%; /* Može drugačija širina */
+  top: 155px;
+  left: 25%;
+  transform: rotate(1deg);
+  z-index: 2;
+}
+
+.frenki-images .img-three {
+  width: 50%;
+  top: 385px;
+  left: 35%;
+  transform: rotate(-2deg);
+  z-index: 3;
+}
+
+/* Hover effect */
+/* .frenki-images img:hover {
+  transform: rotate(0deg) scale(1.05);
+  z-index: 5;
+} */

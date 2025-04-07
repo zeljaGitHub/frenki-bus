@@ -1,0 +1,177 @@
+.hero-image {
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.red-voznje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  background: white;
+  height: 25rem;
+  position: relative;
+  top: -100px;
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10rem;
+}
+
+.buttons button {
+  padding: 16px 95px;
+  background-color: #da1a21;
+  color: white;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.buttons button:hover {
+  background-color: #780c10;
+}
+
+.red-voznje h1 {
+  font-size: 5rem;
+}
+
+.red-voznje h3 {
+  font-size: 1.5rem;
+}
+
+.h1h3 {
+  text-align: center;
+  margin-top: -2.5rem;
+  padding-bottom: 3.5rem;
+  line-height: 1.4;
+}
+
+.split-container {
+  display: flex;
+  width: 95%;
+  margin-bottom: 10rem;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.div-za-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left h4 {
+  font-size: 2.2rem;
+}
+
+.red-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #da1a21;
+  padding: 20px 0;
+  color: white;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.black-div {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 31rem;
+}
+
+.popusti {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 95%;
+}
+
+.popusti h2 {
+  color: white;
+  text-align: center;
+}
+
+.da-obojim-u-crno {
+  width: 100%;
+  background-color: black;
+  margin-bottom: 5rem;
+}
+
+.popusti-slike {
+  display: flex;
+  gap: 1.69rem;
+}
+
+.popusti-slike img {
+  width: calc((100% - 2rem) / 3); /* 2x1rem gap između 3 slike */
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .red-voznje {
+    height: auto;
+    padding: 2rem 1rem;
+    margin-bottom: 5rem;
+    top: -50px;
+  }
+
+  .red-voznje h1 {
+    font-size: 2.5rem;
+  }
+
+  .red-voznje h3 {
+    font-size: 1.2rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .buttons button {
+    width: 90%;
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .buttons button {
+    width: 40%;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .red-voznje h1 {
+    font-size: 4rem;
+  }
+
+  .red-voznje h3 {
+    font-size: 1.3rem;
+  }
+}
