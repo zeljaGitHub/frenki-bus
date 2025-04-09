@@ -1,0 +1,42 @@
+.rent-2-sekcija {
+  margin-top: -18rem;
+  position: relative;
+}
+
+.rent-black {
+  position: relative;
+  background-color: #ef1b22;
+  z-index: 1;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.rent-black::before {
+  content: "";
+  position: absolute;
+  left: -300px;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  background-color: #ef1b22;
+  z-index: -1;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 280px;
+  left: 70px;
+  color: black;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.text-overlay h4 {
+  color: white;
+  font-size: 4rem;
+}
+
+.text-overlay p {
+  padding-top: 6rem;
+  font-size: 1.5rem;
+}

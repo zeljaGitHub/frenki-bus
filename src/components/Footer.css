@@ -1,11 +1,18 @@
 /* Footer.css */
 .footer {
-  background-image: url("/footer-background.png");
   background-size: cover;
   padding: 2rem 0;
   font-family: "Arial", sans-serif;
   color: white;
   width: 100%;
+}
+
+.footer-red {
+  background-image: url("/footer-background.png");
+}
+
+.footer-black {
+  background-color: black;
 }
 
 .footer-container {
@@ -26,8 +33,15 @@
 .footer-title {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #222;
   font-weight: 600;
+}
+
+.footer-red .logo {
+  color: white;
+}
+
+.footer-black .logo {
+  color: #da1a21;
 }
 
 .footer-text {

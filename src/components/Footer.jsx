@@ -1,12 +1,18 @@
 // Footer.jsx
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = ({ variant }) => {
   return (
-    <footer className="footer">
+    <footer className={`footer footer-${variant}`}>
       <div className="footer-container">
         <section className="footer-section">
-          <h2 className="footer-title">Kontakt</h2>
+          <h2 className="footer-title">
+            {variant === "red" ? (
+              <img src="logo-white.png" alt="logo" className="logo" />
+            ) : (
+              <img src="logo-red.png" alt="logo" className="logo" />
+            )}
+          </h2>
           <p className="footer-text">
             Osnovna delatnost firme je prevoz putnika u domačem medjumesnom i
             medjunarodnom vanlinijskom saobračaju.

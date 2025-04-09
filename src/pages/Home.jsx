@@ -61,8 +61,8 @@ const MainPage = () => {
             <img src="/3od3dole.png" alt="studenti" />
           </div>
         </div>
-        <Footer />
       </div>
+      <Footer variant="red" />
     </div>
   );
 };
