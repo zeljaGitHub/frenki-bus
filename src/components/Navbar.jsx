@@ -56,6 +56,8 @@ const Navbar = () => {
         <span></span>
       </button>
 
+      <img src="/logo-white.png" alt="logo" className="mobile-logo" />
+
       {/* Mobile menu */}
       <ul className={`mobile-menu ${isMenuOpen ? "active" : ""}`}>
         <li>

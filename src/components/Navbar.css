@@ -27,6 +27,7 @@
   gap: 150px;
   list-style: none;
   padding: 4rem;
+  align-items: center;
 }
 
 .nav-left a,
@@ -95,7 +96,7 @@
   display: none;
 }
 
-@media (max-width: 923px) {
+@media (max-width: 930px) {
   .nav-left,
   .nav-right {
     display: none;
@@ -178,5 +179,41 @@
 @media (max-width: 1309px) {
   .frenki {
     display: none;
+  }
+}
+
+.nav-mobile-layout {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+@media (max-width: 930px) {
+  .nav-left,
+  .nav-right {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-mobile-layout {
+    display: flex;
+  }
+
+  .mobile-logo {
+    display: block;
+    height: 40px;
   }
 }

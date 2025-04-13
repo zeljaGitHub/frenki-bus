@@ -7,7 +7,23 @@ const Contact = () => {
     <div className="container">
       <div className="white-top-cover"></div>
       <div className="container-2">
-        <img src="./hero-img-onama.png" alt="hero" className="hero-image" />
+        <div className="hero-wrapper">
+          <img
+            src="hero-img-onama.png"
+            alt="Hero Desktop"
+            className="hero-image desktop-hero"
+          />
+          <img
+            src="mobile-hero.png"
+            alt="Hero Mobile"
+            className="hero-image mobile-hero"
+          />
+          <div className="hero-text-overlay">
+            <h1>Tvoj kul naslov</h1>
+            <p>Podnaslov ili nešto kul</p>
+          </div>
+        </div>
+
         <div className="split-container-contact">
           <div className="left-contact">
             <img src="/lokacija.png" alt="Lokacija" className="lokacija" />

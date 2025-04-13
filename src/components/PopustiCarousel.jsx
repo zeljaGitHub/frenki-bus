@@ -12,7 +12,7 @@ const ImageCarousel = () => {
     if (isRunning) {
       interval = setInterval(() => {
         setCurrentIndex((prev) => (prev + 1) % images.length);
-      }, 3500);
+      }, 4000);
     }
     return () => clearInterval(interval);
   }, [isRunning]);
@@ -41,7 +41,7 @@ const ImageCarousel = () => {
         </button>
       </div>
       <div className="carousel-autoplay">
-        <button onClick={handleAutoPlay}>
+        <button onClick={handleAutoPlay} className="autoplay-button">
           {isRunning ? "Stop" : "Start"} Auto
         </button>
       </div>

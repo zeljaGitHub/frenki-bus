@@ -8,11 +8,13 @@ const About = () => {
     <div className="container">
       <div className="white-top-cover"></div>
       <div className="container-2">
-        <img
-          src="./hero-img-bus.png"
-          alt="hero"
-          className="hero-image about-hero"
-        />
+        <div className="hero-wrapper">
+          <img
+            src="./hero-img-bus.png"
+            alt="hero"
+            className="hero-image about-hero"
+          />
+        </div>
         <FrenkiSection />
         <Aboutlastsection />
       </div>
