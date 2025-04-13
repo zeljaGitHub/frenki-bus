@@ -31,7 +31,7 @@
 }
 
 .footer-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
   font-weight: 600;
 }
@@ -39,14 +39,17 @@
 .footer-red .logo {
   color: white;
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .footer-black .logo {
   color: #da1a21;
   padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .footer-text {
+  font-size: 1.2rem;
   margin-bottom: 0.75rem;
   line-height: 1.5;
 }

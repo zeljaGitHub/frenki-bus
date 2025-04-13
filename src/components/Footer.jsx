@@ -17,10 +17,10 @@ const Footer = ({ variant }) => {
             Osnovna delatnost firme je prevoz putnika <br /> u domačem
             medjumesnom i medjunarodnom <br /> vanlinijskom saobračaju.
           </p>
-          <p className="footer-text">
+          {/* <p className="footer-text">
             Pored toga firmi je povereno obavljanje prevoza putnika <br /> u
             gradsko-prigradskom saobračaju <br /> na teritoriji grada Leskovca.
-          </p>
+          </p> */}
           <p className="footer-text pib">PIB: 101910220</p>
           <p className="footer-text">Matični broj: 06832270</p>
         </section>

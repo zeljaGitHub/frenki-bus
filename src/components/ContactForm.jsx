@@ -34,10 +34,28 @@ const ContactForm = () => {
   return (
     <form ref={form} onSubmit={sendEmail} className="contact-form">
       <h4>Sva polja su obavezna</h4>
-      <input type="text" name="ime" placeholder="Ime i Prezime" required />
-      <input type="tel" name="telefon" placeholder="Kontakt Telefon" required />
-      <input type="email" name="email" placeholder="Email" required />
-      <textarea name="poruka" placeholder="Vaša poruka" rows="5" required />
+      <input
+        type="text"
+        name="ime"
+        placeholder="Ime i Prezime"
+        required
+        style={{ width: "min(100%, 700px)" }}
+      />
+      <input
+        type="tel"
+        name="telefon"
+        placeholder="Kontakt Telefon"
+        required
+        style={{ width: "min(100%, 700px)" }}
+      />
+      <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        required
+        style={{ width: "min(100%, 700px)" }}
+      />
+      <textarea name="poruka" placeholder="Vaša poruka" rows="10" required />
       <button type="submit" disabled={sending}>
         {sending ? "Šalje se..." : "Pošalji"}
       </button>

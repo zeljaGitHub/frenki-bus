@@ -56,7 +56,7 @@ const MainPage = () => {
           </div>
         </div>
         <PopustiSection />
-        <Footer variant="red" />
+        <Footer variant="black" />
       </div>
     </div>
   );

@@ -10,10 +10,19 @@ const About = () => {
       <div className="container-2">
         <div className="hero-wrapper">
           <img
-            src="./hero-img-bus.png"
-            alt="hero"
-            className="hero-image about-hero"
+            src="hero-img-bus.png"
+            alt="Hero Desktop"
+            className="hero-image desktop-hero"
           />
+          <img
+            src="hero-mobile-img-bus.png"
+            alt="Hero Mobile"
+            className="hero-image mobile-hero"
+          />
+          <div className="hero-text-overlay">
+            <h1>Tvoj kul naslov</h1>
+            <p>Podnaslov ili nešto kul</p>
+          </div>
         </div>
         <FrenkiSection />
         <Aboutlastsection />

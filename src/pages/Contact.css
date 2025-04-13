@@ -30,23 +30,23 @@
   }
 } */
 
-/* @media (max-width: 900px) {
+@media (max-width: 1000px) {
   .split-container-contact {
-    flex-direction: column; 
+    flex-direction: column;
   }
   .left-contact,
   .right-contact {
-    width: 100%; 
+    width: 100%;
   }
 
   .right-contact {
-    order: 1; 
+    order: 1;
   }
 
   .left-contact {
-    order: 2; 
+    order: 2;
   }
-} */
+}
 
 .right-contact {
   display: flex;
