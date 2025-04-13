@@ -8,7 +8,7 @@ const AboutSection = () => {
       <div className="images">
         <img src="/bus-dole.png" alt="Autobus Frenki" className="main-image" />
         <img
-          src="/bus-dole-1.png"
+          src="bus-dole-2.png"
           alt="Autobusi u garaži"
           className="small-image"
         />
@@ -17,8 +17,10 @@ const AboutSection = () => {
       {/* Desna strana - tekst */}
       <div className="text-content">
         <div className="red-banner">
-          Osim prevoza putnika iznajmljujemo svoja vozila drugim pravnim licima
-          radi organizovanja turističkih obilazaka
+          <h4 className="red-banner-naslov">
+            Osim prevoza putnika iznajmljujemo svoja vozila drugim pravnim
+            licima radi organizovanja turističkih obilazaka
+          </h4>
         </div>
 
         <p>

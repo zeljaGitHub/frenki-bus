@@ -18,6 +18,7 @@
   padding: 0 20px;
   z-index: 999;
   border-radius: 10px 10px 10px 10px;
+  font-size: 1.1rem;
 }
 
 .nav-left,
@@ -94,7 +95,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 923px) {
   .nav-left,
   .nav-right {
     display: none;
@@ -162,7 +163,19 @@
   z-index: 1000;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1475px) {
+  .frenki {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1375px) {
+  .frenki {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1309px) {
   .frenki {
     display: none;
   }

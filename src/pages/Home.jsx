@@ -1,13 +1,16 @@
 import React from "react";
 import "./Home.css";
 import Footer from "../components/Footer";
+import Video from "../components/Video";
+import PopustiSection from "../components/PopustiCarousel";
 
 const MainPage = () => {
   return (
     <div className="container">
       <div className="white-top-cover"></div>
       <div className="container-2">
-        <img src="./hero-img-2.png" alt="hero" className="hero-image" />
+        {/* <img src="./hero-img-2.png" alt="hero" className="hero-image" /> */}
+        <Video />
         <div className="red-voznje">
           <div className="h1h3">
             <h1>Red vožnje</h1>
@@ -30,10 +33,10 @@ const MainPage = () => {
         <div className="split-container">
           <div className="left">
             <div className="div-za-align">
-              <h4>
+              <h6>
                 Prevoz putnika <br /> visokopodnim autobusima <br /> turističke
                 klase
-              </h4>
+              </h6>
             </div>
             <div className="red-div">
               <p>
@@ -45,22 +48,14 @@ const MainPage = () => {
               <p>+381 69 8729855</p>
               <p>+381 69 8729859</p>
             </div>
-            <div className="black-div">Naš vozni park</div>
+
+            <button className="black-div">Naš vozni park</button>
           </div>
           <div className="right">
             <img src="/bus-pocetna.png" alt="Autobus" />
           </div>
         </div>
-        <div className="popusti">
-          <div className="da-obojim-u-crno">
-            <h2>Popusti za sve!</h2>
-          </div>
-          <div className="popusti-slike">
-            <img src="/1od3dole.png" alt="skolarci" />
-            <img src="/2od3dole.png" alt="penzioneri" />
-            <img src="/3od3dole.png" alt="studenti" />
-          </div>
-        </div>
+        <PopustiSection />
       </div>
       <Footer variant="red" />
     </div>

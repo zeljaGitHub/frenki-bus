@@ -10,7 +10,7 @@ const Contact = () => {
         <img src="./hero-img-onama.png" alt="hero" className="hero-image" />
         <div className="split-container-contact">
           <div className="left-contact">
-            <img src="/lokacija.png" alt="Lokacija" />
+            <img src="/lokacija.png" alt="Lokacija" className="lokacija" />
           </div>
           <div className="right-contact">
             <ContactForm />

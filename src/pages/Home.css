@@ -54,27 +54,37 @@
   display: flex;
   width: 95%;
   margin-bottom: 10rem;
+  align-items: stretch; /* da leve i desne strane budu iste visine */
+  /* gap: 2rem; */
 }
 
 .left,
 .right {
   width: 50%;
-}
-
-.div-za-align {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
 }
 
-.left h4 {
-  font-size: 2.2rem;
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.black-div {
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 35rem;
+  padding: 2rem 0;
+  font-size: 2rem;
 }
 
 .red-div {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: center;
   background-color: #da1a21;
   padding: 20px 0;
@@ -83,11 +93,74 @@
   margin-top: 1rem;
 }
 
-.black-div {
-  text-align: center;
-  background-color: black;
-  color: white;
-  width: 31rem;
+.red-div p {
+  font-size: 2rem;
+  padding-left: 10rem;
+}
+
+.left h6 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 1921px) {
+  .left h6 {
+    padding-right: 17rem;
+  }
+}
+
+@media (max-width: 1307px) {
+  .red-div p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1190px) {
+  .left h6 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .split-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .right img {
+    height: auto;
+  }
+
+  .black-div {
+    width: 100%;
+    padding: 1.5rem 0;
+    margin-bottom: 2.3rem;
+  }
+
+  .red-div {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .red-div p {
+    padding-left: 0; /* ukloni veliki padding za mobilne */
+    font-size: 1.2rem;
+  }
+
+  .left h6 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+.div-za-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .popusti {
@@ -111,6 +184,16 @@
   margin-bottom: 5rem;
 }
 
+@media (min-width: 1921px) {
+  .da-obojim-u-crno {
+    width: 64vw;
+  }
+}
+
+.da-obojim-u-crno h2 {
+  font-size: 2.55rem;
+}
+
 .popusti-slike {
   display: flex;
   gap: 1.69rem;
@@ -120,6 +203,15 @@
   width: calc((100% - 2rem) / 3); /* 2x1rem gap između 3 slike */
   height: auto;
   object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+  .popusti-slike {
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+  }
 }
 
 @media (max-width: 768px) {
@@ -174,5 +266,67 @@
 
   .red-voznje h3 {
     font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .buttons button {
+    width: 45%;
+    min-width: 180px;
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carousel-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carousel-autoplay {
+  margin-top: 1rem;
+}
+
+.carousel-autoplay button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+.arrow-button {
+  background-color: #111;
+  border: none;
+  border-radius: 50%;
+  padding: 0.6rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-button:hover {
+  background-color: #444;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .carousel-buttons {
+    display: none;
   }
 }

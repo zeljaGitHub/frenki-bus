@@ -13,9 +13,19 @@
   width: 80vw;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1493px) {
   .frenki-container {
     flex-direction: row;
+  }
+}
+
+@media (max-width: 1493px) {
+  .frenki-section {
+    margin-bottom: 13rem;
+  }
+  .frenki-images {
+    width: 60%;
+    margin-left: 8rem;
   }
 }
 

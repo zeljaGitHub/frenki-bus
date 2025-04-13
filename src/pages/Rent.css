@@ -31,6 +31,18 @@
   border-radius: 8px;
 }
 
+@media (max-width: 1610px) {
+  .text-overlay {
+    bottom: 100px;
+  }
+}
+
+@media (max-width: 1506px) {
+  .text-overlay {
+    bottom: 50px;
+  }
+}
+
 .text-overlay h4 {
   color: white;
   font-size: 4rem;
@@ -39,4 +51,10 @@
 .text-overlay p {
   padding-top: 6rem;
   font-size: 1.5rem;
+}
+
+@media (max-width: 1375px) {
+  .text-overlay h4 {
+    font-size: 2.2rem;
+  }
 }

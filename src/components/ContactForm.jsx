@@ -1,32 +1,46 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import "./ContactForm.css";
 
 const ContactForm = () => {
+  const form = useRef();
+  const [sending, setSending] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
+    setSending(true);
 
-    const form = e.target;
-    const ime = form.ime.value;
-    const telefon = form.telefon.value;
-    const email = form.email.value;
-    const poruka = form.poruka.value;
-
-    const to = "zel87king2@gmail.com"; // ← OVDE upiši svoj email
-    const subject = encodeURIComponent("Kontakt forma sa sajta");
-    const body = encodeURIComponent(
-      `Ime i Prezime: ${ime}\nTelefon: ${telefon}\nEmail: ${email}\n\nPoruka:\n${poruka}`
-    );
-
-    window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        form.current,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          alert("Poruka uspešno poslata!");
+          form.current.reset();
+          setSending(false);
+        },
+        (error) => {
+          console.error("EmailJS error:", error);
+          alert("Došlo je do greške: " + error.text);
+          setSending(false);
+        }
+      );
   };
 
   return (
-    <form onSubmit={sendEmail} className="contact-form">
+    <form ref={form} onSubmit={sendEmail} className="contact-form">
+      <h4>Sva polja su obavezna</h4>
       <input type="text" name="ime" placeholder="Ime i Prezime" required />
       <input type="tel" name="telefon" placeholder="Kontakt Telefon" required />
       <input type="email" name="email" placeholder="Email" required />
       <textarea name="poruka" placeholder="Vaša poruka" rows="5" required />
-      <button type="submit">Pošalji</button>
+      <button type="submit" disabled={sending}>
+        {sending ? "Šalje se..." : "Pošalji"}
+      </button>
     </form>
   );
 };
