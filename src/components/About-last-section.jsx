@@ -18,27 +18,28 @@ const AboutSection = () => {
       <div className="text-content">
         <div className="red-banner">
           <h4 className="red-banner-naslov">
-            Osim prevoza putnika iznajmljujemo svoja vozila drugim pravnim
-            licima radi organizovanja turističkih obilazaka
+            Osim prevoza putnika iznajmljujemo svoja vozila <br /> drugim
+            pravnim licima radi organizovanja <br /> turističkih obilazaka
           </h4>
         </div>
 
         <p>
-          Imamo dugogodišnju i izuzetno uspešnu saradnju sa domaćim turističkim
-          agencijama, posebno sa turističkim agencijama „Bavka-turs“, iz Gornjeg
-          Bunibroda i „Vučić-travel“, iz Leskovca. Prevoz putnika se vrši
-          modernim dvospratnim i visokopodnim autobusima turističke klase marke
-          SETRA i NEOPLAN, sa kompletnom dodatnom opremom (klima, audio i video
-          tehnika, kafe-bar, toalet…).
+          Imamo dugogodišnju i izuzetno uspešnu saradnju <br /> sa domaćim
+          turističkim agencijama, posebno sa turističkim agencijama
+          „Bavka-turs“, iz Gornjeg Bunibroda i „Vučić-travel“, iz Leskovca.{" "}
+          <br />
+          Prevoz putnika se vrši modernim dvospratnim i visokopodnim autobusima
+          turističke klase marke SETRA i NEOPLAN, <br /> sa kompletnom dodatnom
+          opremom <br /> (klima, audio i video tehnika, kafe-bar, toalet…).
         </p>
 
         <p>
-          Firma „Frenki-komerc„ u svom kolektivu ima 50 upošljenika prosečne
-          starosti 36 godina. Iskustvo, stručnost i profesionalni odnos prema
-          obavezama i poslovnim partnerima su garancija da će Vam sa nama
-          putovanje biti bezbedno i zanimljivo, a nama će biti posebno drago da
-          nam ukažete na eventualne nedostatke koje budete primetili tokom
-          putovanja.
+          Firma „Frenki-komerc„ u svom kolektivu ima 50 upošljenika <br />{" "}
+          prosečne starosti 36 godina. Iskustvo, stručnost i profesionalni odnos
+          prema obavezama i poslovnim partnerima su garancija da <br /> će Vam
+          sa nama putovanje biti bezbedno i zanimljivo, <br /> a nama će biti
+          posebno drago da nam ukažete na eventualne <br /> nedostatke koje
+          budete primetili tokom putovanja.
         </p>
       </div>
     </section>

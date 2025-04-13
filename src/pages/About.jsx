@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import FrenkiSection from "../components/FrenkiSection";
 import Aboutlastsection from "../components/About-last-section";
+import Footer from "../components/Footer";
 
 const About = () => {
   return (
@@ -26,6 +27,7 @@ const About = () => {
         </div>
         <FrenkiSection />
         <Aboutlastsection />
+        <Footer variant="black" />
       </div>
     </div>
   );

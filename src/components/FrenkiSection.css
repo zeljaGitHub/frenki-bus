@@ -3,6 +3,7 @@
   background-color: #ffffff;
   font-family: sans-serif;
   margin-bottom: 11rem;
+  margin-top: 8rem;
 }
 
 .frenki-container {
@@ -35,12 +36,16 @@
   line-height: 1.7;
 }
 
+.frenki-container p {
+  padding-left: 2rem;
+}
+
 .p-one {
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 
 .p-two {
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 
 .frenki-text ul {

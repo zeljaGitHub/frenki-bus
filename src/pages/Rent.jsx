@@ -7,9 +7,24 @@ const Rent = () => {
     <div className="container">
       <div className="white-top-cover"></div>
       <div className="container-2">
-        <img src="./hero-rent.png" alt="hero" className="hero-image" />
+        <div className="hero-wrapper">
+          <img
+            src="hero-iznajmljivanje.png"
+            alt="Hero Desktop"
+            className="hero-image desktop-hero hero-iznajmljivanje-img"
+          />
+          <img
+            src="hero-iznajmljivanje-mobile.png"
+            alt="Hero Mobile"
+            className="hero-image mobile-hero"
+          />
+          <div className="hero-text-overlay">
+            <h1>Tvoj kul naslov</h1>
+            <p>Podnaslov ili nešto kul</p>
+          </div>
+        </div>
         <div className="rent-2-sekcija">
-          <img src="lotsofbuses.png" alt="Autobusi" />
+          <img src="lotsofbuses.png" alt="Autobusi" className="lotsofbuses" />
           <div class="text-overlay">
             <div className="rent-black">
               <h4>Iznajmljivanje Vozila</h4>
@@ -22,8 +37,8 @@ const Rent = () => {
             </p>
           </div>
         </div>
+        <Footer variant="black" />
       </div>
-      <Footer variant="black" />
     </div>
   );
 };

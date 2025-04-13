@@ -1,3 +1,12 @@
+.hero-iznajmljivanje-img {
+  /* margin-top: 15rem; */
+  height: 100%;
+}
+
+.lotsofbuses {
+  width: 80vw;
+}
+
 .rent-2-sekcija {
   margin-top: -18rem;
   position: relative;
@@ -45,12 +54,14 @@
 
 .text-overlay h4 {
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
+  margin-left: -3rem;
 }
 
 .text-overlay p {
   padding-top: 6rem;
   font-size: 1.5rem;
+  margin-left: -3rem;
 }
 
 @media (max-width: 1375px) {

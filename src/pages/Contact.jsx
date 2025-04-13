@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import ContactForm from "../components/ContactForm";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
@@ -32,6 +33,7 @@ const Contact = () => {
             <ContactForm />
           </div>
         </div>
+        <Footer variant="black" />
       </div>
     </div>
   );
