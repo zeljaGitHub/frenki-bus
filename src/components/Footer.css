@@ -38,10 +38,12 @@
 
 .footer-red .logo {
   color: white;
+  padding-bottom: 1rem;
 }
 
 .footer-black .logo {
   color: #da1a21;
+  padding-bottom: 1rem;
 }
 
 .footer-text {
@@ -65,4 +67,25 @@
     height: 1px;
     margin: 1rem 0;
   }
+}
+
+.poravnanje-sa-desne {
+  text-align: end;
+  padding-right: 3rem;
+}
+
+.pib {
+  padding-top: 2rem;
+}
+
+.centriranje-na-sredinu {
+  padding-left: 6rem;
+}
+
+.spustanje-oba {
+  padding-top: 1.2rem;
+}
+
+.footer-title2 {
+  padding-bottom: 0.7rem;
 }

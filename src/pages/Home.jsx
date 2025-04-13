@@ -39,7 +39,7 @@ const MainPage = () => {
               </h6>
             </div>
             <div className="red-div">
-              <p>
+              <p className="pozovite-line">
                 Pozovite nas i rezervišite <br /> Vaše mesto još danas:
               </p>
               <p>+381 16 260 013</p>
@@ -56,8 +56,8 @@ const MainPage = () => {
           </div>
         </div>
         <PopustiSection />
+        <Footer variant="red" />
       </div>
-      <Footer variant="red" />
     </div>
   );
 };
