@@ -40,11 +40,11 @@ const ImageCarousel = () => {
           <MdArrowForward size={24} />
         </button>
       </div>
-      <div className="carousel-autoplay">
+      {/* <div className="carousel-autoplay">
         <button onClick={handleAutoPlay} className="autoplay-button">
           {isRunning ? "Stop" : "Start"} Auto
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

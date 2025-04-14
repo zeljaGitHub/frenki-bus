@@ -13,7 +13,7 @@ const Footer = ({ variant }) => {
               <img src="logo-red.png" alt="logo" className="logo" />
             )}
           </h2>
-          <p className="footer-text">
+          <p className="footer-text footer-text-2">
             Osnovna delatnost firme je prevoz putnika <br /> u domačem
             medjumesnom i medjunarodnom <br /> vanlinijskom saobračaju.
           </p>

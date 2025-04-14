@@ -16,7 +16,7 @@ const MainPage = () => {
             <h1>Red vožnje</h1>
             <h3>Izaberi mesto polaska</h3>
           </div>
-          <div className="buttons">
+          <div className="buttons buttons-gornji">
             <button>LESKOVAC</button>
             <button>NIŠ</button>
             <button>KRAGUJEVAC</button>
