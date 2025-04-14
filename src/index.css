@@ -143,9 +143,3 @@ button {
   justify-content: center;
   width: 90vw;
 }
-
-@media (max-width: 768px) {
-  .container-2 {
-    width: 100vw;
-  }
-}
