@@ -90,3 +90,41 @@
 .contact-form button:hover {
   background-color: #780c10;
 }
+
+/* ------------------------------ */
+
+.contact-text-overlay-h1 {
+  font-size: 5rem;
+}
+
+.contact-text-overlay-h1 span {
+  font-family: Abuget;
+  font-size: 7rem;
+  margin-top: 3rem;
+  color: #ed1c24;
+}
+
+.overlay-contact-p {
+  background-color: #ed1c24;
+  text-align: end;
+  padding: 20px 3rem 20px 0;
+  margin-bottom: 2rem;
+}
+
+.overlay-contact-p p {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+  .contact-text-overlay-h1 {
+    font-size: 3.5rem;
+  }
+  .contact-text-overlay-h1 span {
+    font-size: 5rem;
+    padding-left: 0.5rem;
+  }
+  .overlay-contact-p {
+    text-align: center;
+    padding: 20px 0.5rem 20px 0.5rem;
+  }
+}

@@ -82,3 +82,21 @@
   text-align: left;
   /* margin-left: -10rem; */
 }
+
+@media (max-width: 1430px) {
+  .text-content p {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .red-banner::before {
+    display: none;
+  }
+  .text-content p {
+    text-align: center;
+  }
+  .text-content h4 {
+    text-align: center;
+  }
+}

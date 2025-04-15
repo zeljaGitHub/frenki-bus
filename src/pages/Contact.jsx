@@ -20,8 +20,20 @@ const Contact = () => {
             className="hero-image mobile-hero"
           />
           <div className="hero-text-overlay">
-            <h1>Tvoj kul naslov</h1>
-            <p>Podnaslov ili nešto kul</p>
+            <h1 className="contact-text-overlay-h1">
+              Kontaktirajte <span>Nas</span>
+            </h1>
+            <div className="overlay-contact-p">
+              <p>frenkioffice@gmail.com</p>
+              <p>www.frenkicommerce.co.rs</p>
+              <br />
+              <p>+381 16 260 013</p>
+              <p>+381 16 280 140</p>
+              <p>+381 16 280 155</p>
+              <br />
+              <p>PIB: 101910220</p>
+              <p>Matični broj: 06832270</p>
+            </div>
           </div>
         </div>
 

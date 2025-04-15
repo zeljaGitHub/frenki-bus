@@ -3,6 +3,7 @@ import "./Home.css";
 import Footer from "../components/Footer";
 import Video from "../components/Video";
 import PopustiSection from "../components/PopustiCarousel";
+import { Link } from "react-router-dom";
 
 const MainPage = () => {
   return (
@@ -17,7 +18,9 @@ const MainPage = () => {
             <h3>Izaberi mesto polaska</h3>
           </div>
           <div className="buttons buttons-gornji">
-            <button>LESKOVAC</button>
+            <button onClick={() => window.open("/leskovac.jpg", "_blank")}>
+              LESKOVAC
+            </button>
             <button>NIŠ</button>
             <button>KRAGUJEVAC</button>
             <button>JAGODINA</button>
@@ -49,7 +52,9 @@ const MainPage = () => {
               <p>+381 69 8729859</p>
             </div>
 
-            <button className="black-div">Naš vozni park</button>
+            <Link to="/Iznajmljivanje-Autobusa" className="black-div">
+              Naš vozni park
+            </Link>
           </div>
           <div className="right">
             <img src="/bus-pocetna.png" alt="Autobus" />

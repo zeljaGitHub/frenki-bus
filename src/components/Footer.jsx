@@ -1,5 +1,6 @@
-// Footer.jsx
 import "./Footer.css";
+import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { SiViber } from "react-icons/si"; // Viber nije u Fa, već u Si (Simple Icons)
 
 const Footer = ({ variant }) => {
   return (
@@ -48,6 +49,42 @@ const Footer = ({ variant }) => {
           <p className="footer-text">Radnim danima: 08:00h - 15:00h</p>
           <p className="footer-text">Subotom: 08:00h - 14:00h</p>
           <p className="footer-text">Nedeljom ne radimo</p>
+          <div className="social-icons">
+            <a
+              href="https://www.facebook.com/frenkikomerc/?locale=sr_RS"
+              className="icon facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebook size={37} />
+            </a>
+            <a
+              href="https://www.instagram.com/frenkikomerc/?hl=en"
+              className="icon instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram size={37} />
+            </a>
+            <a
+              href="#"
+              onClick={(e) => e.preventDefault()}
+              className="icon viber"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiViber size={37} />
+            </a>
+            <a
+              href="#"
+              onClick={(e) => e.preventDefault()}
+              className="icon whatsapp"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp size={37} />
+            </a>
+          </div>
         </section>
       </div>
     </footer>

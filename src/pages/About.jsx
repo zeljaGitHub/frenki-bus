@@ -21,8 +21,8 @@ const About = () => {
             className="hero-image mobile-hero"
           />
           <div className="hero-text-overlay">
-            <h1>Tvoj kul naslov</h1>
-            <p>Podnaslov ili nešto kul</p>
+            <h1 className="par-reci">Par redova</h1>
+            <h1 className="about-o-nama">O nama</h1>
           </div>
         </div>
         <FrenkiSection />

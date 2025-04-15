@@ -104,13 +104,17 @@
     padding-right: 1.1rem;
   }
 
-  .footer-title2 {
+  .footer-title {
     font-size: 1.5rem;
   }
 
   .centriranje-na-sredinu {
     padding-left: 0.5rem;
     text-align: center;
+    display: flex;
+    justify-content: center; /* horizontalno centriranje */
+    align-items: center;
+    flex-direction: column;
   }
 
   .footer-text-2 {
@@ -119,6 +123,37 @@
 
   .logo {
     height: 4rem;
-    padding-left: 4rem;
+  }
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons .icon {
+  color: white; /* Osnovna boja */
+  transition: color 0.3s ease;
+}
+
+.social-icons .facebook:hover {
+  color: #1877f2; /* Facebook plava */
+}
+
+.social-icons .instagram:hover {
+  color: #e4405f; /* Instagram pink-crvena */
+}
+
+.social-icons .viber:hover {
+  color: #665cac; /* Viber ljubičasta */
+}
+
+.social-icons .whatsapp:hover {
+  color: #25d366; /* WhatsApp zelena */
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    justify-content: center;
   }
 }

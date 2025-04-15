@@ -1,3 +1,37 @@
 .about-hero {
   margin-bottom: 11rem;
 }
+
+.par-reci {
+  font-family: Abuget;
+  font-size: 8rem;
+  line-height: 0;
+  margin-left: 4.25rem;
+  color: #ed1c24;
+}
+
+.about-o-nama {
+  font-size: 7.8rem;
+  margin-top: -2.9rem;
+}
+
+@media (max-width: 1000px) {
+  .par-reci {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 7rem;
+  }
+  .about-o-nama {
+    font-size: 6rem;
+    margin-top: -4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .par-reci {
+    font-size: 5rem;
+  }
+  .about-o-nama {
+    font-size: 3rem;
+  }
+}
