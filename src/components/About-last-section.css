@@ -99,4 +99,7 @@
   .text-content h4 {
     text-align: center;
   }
+  .small-image {
+    display: none;
+  }
 }

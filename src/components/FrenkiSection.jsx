@@ -45,6 +45,11 @@ const FrenkiSection = () => {
           />
           <img src="/kosa-3.png" alt="Autobusi pozadi" className="img-three" />
         </div>
+        <div className="image-container-zamena">
+          <img src="zamena1.png" alt="Autobus" />
+          <img src="zamena2.png" alt="Autobus" />
+          <img src="zamena3.png" alt="Autobus" />
+        </div>
       </div>
     </section>
   );

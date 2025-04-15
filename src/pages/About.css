@@ -29,9 +29,10 @@
 
 @media (max-width: 768px) {
   .par-reci {
-    font-size: 3rem;
+    font-size: 5rem;
   }
   .about-o-nama {
+    margin-top: -2.5rem;
     font-size: 3rem;
   }
 }

@@ -40,7 +40,7 @@
 @media (max-width: 768px) {
   .mute-button {
     top: 85px;
-    right: 40px;
+    right: 30px;
     width: 30px;
     height: 30px;
   }

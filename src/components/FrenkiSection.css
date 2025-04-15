@@ -100,11 +100,9 @@
   z-index: 3;
 }
 
-/* Hover effect */
-/* .frenki-images img:hover {
-  transform: rotate(0deg) scale(1.05);
-  z-index: 5;
-} */
+.image-container-zamena {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .frenki-text {
@@ -112,5 +110,26 @@
   }
   .frenki-container p {
     padding-left: 0;
+  }
+}
+
+@media (max-width: 1161px) {
+  .frenki-images {
+    display: none;
+  }
+  .image-container-zamena {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .image-container-zamena image {
+    max-width: 100%;
+    height: auto;
+  }
+  .frenki-section {
+    margin-bottom: 5rem;
   }
 }
