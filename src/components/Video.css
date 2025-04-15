@@ -36,3 +36,12 @@
     transform: scale(1);
   }
 }
+
+@media (max-width: 768px) {
+  .mute-button {
+    top: 85px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+  }
+}

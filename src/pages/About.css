@@ -29,9 +29,26 @@
 
 @media (max-width: 768px) {
   .par-reci {
-    font-size: 5rem;
+    font-size: 3rem;
   }
   .about-o-nama {
     font-size: 3rem;
   }
 }
+
+/* @media (max-width: 1000px) {
+  .contact-text-overlay-h1 {
+    font-size: 2rem;
+  }
+  .contact-text-overlay-h1 span {
+    font-size: 3rem;
+    padding-left: 0.5rem;
+  }
+  .overlay-contact-p {
+    text-align: center;
+    padding: 20px 0.5rem 20px 0.5rem;
+  }
+  .overlay-contact-p p {
+    font-size: 1.2rem;
+  }
+} */
