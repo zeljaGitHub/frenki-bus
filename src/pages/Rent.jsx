@@ -18,9 +18,16 @@ const Rent = () => {
             alt="Hero Mobile"
             className="hero-image mobile-hero"
           />
-          <div className="hero-text-overlay">
-            <h1>Tvoj kul naslov</h1>
-            <p>Podnaslov ili nešto kul</p>
+          <div className="hero-text-overlay-rent">
+            <h1 className="Iznajmljivanje-Autobusa-h1">
+              Iznajmljivanje <br /> Autobusa
+            </h1>
+            <h1 className="abuget">Modeli u</h1>
+            <h1 className="abuget2">ponudi</h1>
+            <p className="Osim-prevoza-putnika">
+              Osim prevoza putnika iznajmljujemo svoja <br /> vozila drugim
+              pravnim licima radi <br /> organizovanja turističkih obilazaka
+            </p>
           </div>
         </div>
         <div className="rent-2-sekcija">

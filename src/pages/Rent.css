@@ -1,6 +1,6 @@
 .hero-iznajmljivanje-img {
   /* margin-top: 15rem; */
-  height: 100%;
+  height: auto;
 }
 
 .lotsofbuses {
@@ -8,7 +8,7 @@
 }
 
 .rent-2-sekcija {
-  margin-top: -18rem;
+  margin-top: -16rem;
   position: relative;
 }
 
@@ -67,5 +67,73 @@
 @media (max-width: 1375px) {
   .text-overlay h4 {
     font-size: 2.2rem;
+  }
+}
+
+.abuget {
+  font-family: Abuget;
+  font-size: 5.5rem;
+  line-height: 0.7;
+  color: #ed1c24;
+  transform: rotate(-8deg);
+  margin-left: 14rem;
+}
+
+.abuget2 {
+  font-family: Abuget;
+  font-size: 5.5rem;
+  line-height: 0.7;
+  color: #ed1c24;
+  transform: rotate(-8deg);
+  margin-left: 21rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.Iznajmljivanje-Autobusa-h1 {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.Osim-prevoza-putnika {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .Iznajmljivanje-Autobusa-h1 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+  }
+  .abuget {
+    margin: 0;
+  }
+  .abuget2 {
+    margin: 0;
+  }
+  .Osim-prevoza-putnika {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+  .text-overlay {
+    position: static;
+    text-align: center;
+  }
+  .text-overlay h4 {
+    margin: 0;
+  }
+  .text-overlay p {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: 0;
+  }
+  .rent-black::before {
+    display: none;
+  }
+  .lotsofbuses {
+    display: none;
+  }
+  .rent-2-sekcija {
+    margin-top: 7rem;
+    margin-bottom: 3rem;
   }
 }

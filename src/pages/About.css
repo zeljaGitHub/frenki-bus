@@ -17,9 +17,10 @@
 
 @media (max-width: 1000px) {
   .par-reci {
-    margin: 0;
+    display: none;
+    /* margin: 0;
     line-height: 1.5;
-    font-size: 7rem;
+    font-size: 7rem; */
   }
   .about-o-nama {
     font-size: 6rem;
@@ -29,11 +30,11 @@
 
 @media (max-width: 768px) {
   .par-reci {
-    font-size: 5rem;
+    display: none;
   }
   .about-o-nama {
-    margin-top: -2.5rem;
-    font-size: 3rem;
+    /* margin-top: -2.5rem; */
+    font-size: 5rem;
   }
 }
 
