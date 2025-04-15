@@ -90,6 +90,16 @@
 }
 
 @media (max-width: 900px) {
+  .about-section {
+    .images {
+      order: 2;
+    }
+
+    .text-content {
+      order: 1;
+    }
+  }
+
   .red-banner::before {
     display: none;
   }
