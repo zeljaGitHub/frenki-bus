@@ -117,7 +117,7 @@
 
 @media (max-width: 1000px) {
   .contact-text-overlay-h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .contact-text-overlay-h1 span {
     font-size: 3rem;
@@ -126,5 +126,8 @@
   .overlay-contact-p {
     text-align: center;
     padding: 20px 0.5rem 20px 0.5rem;
+  }
+  .overlay-contact-p p {
+    font-size: 1.2rem;
   }
 }
