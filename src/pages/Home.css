@@ -165,7 +165,7 @@
 
 .black-div {
   text-align: center;
-  background-color: #1c545d;
+  background-color: #da1a21;
   color: white;
   width: 32.5rem;
   padding: 2rem 0;
@@ -173,7 +173,7 @@
 }
 
 .black-div:hover {
-  background-color: black;
+  background-color: #1c545d;
 }
 
 .red-div {
@@ -181,7 +181,7 @@
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  background-color: #da1a21;
+  background-color: #1c545d;
   padding: 30px 0 40px 0;
   color: white;
   margin-bottom: 2rem;

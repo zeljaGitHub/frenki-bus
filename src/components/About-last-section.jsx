@@ -39,7 +39,7 @@ const AboutSection = () => {
           Bunibroda i „Vučić-travel“, iz Leskovca. Prevoz putnika se vrši
           modernim dvospratnim i visokopodnim autobusima turističke klase marke
           SETRA i NEOPLAN, sa kompletnom dodatnom opremom (klima, audio i video
-          tehnika, <br /> kafe-bar, toalet…).
+          tehnika, kafe-bar, toalet…).
         </p>
 
         <p className="als-desktop-p1">
