@@ -63,7 +63,7 @@ const MainPage = () => {
             </div>
 
             <Link to="/Iznajmljivanje-Autobusa" className="black-div">
-              Naš vozni park
+              Iznajmi Autobus
             </Link>
           </div>
           <div className="right">

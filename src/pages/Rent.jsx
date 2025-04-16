@@ -26,8 +26,9 @@ const Rent = () => {
             <h1 className="abuget">Modeli u</h1>
             <h1 className="abuget2">ponudi</h1>
             <p className="Osim-prevoza-putnika">
-              Osim prevoza putnika iznajmljujemo svoja <br /> vozila drugim
-              pravnim licima radi <br /> organizovanja turističkih obilazaka
+              Osim prevoza putnika iznajmljujemo <br /> svoja vozila drugim
+              pravnim licima <br /> radi organizovanja <br /> turističkih
+              obilazaka
             </p>
           </div>
         </div>
@@ -38,10 +39,11 @@ const Rent = () => {
               <h4>Iznajmljivanje Vozila</h4>
             </div>
             <p>
-              Frenki line u svom voznom parku poseduje autobuse <br />{" "}
-              kapaciteta od 28 do 61 sedišta koja je moguće iznajmiti <br /> za
-              ekskurzije, izlete, obilaske grada, privatni prevoz i slično,{" "}
-              <br /> na svim destinacijama u zemlji i inostranstvu.
+              Frenki line u svom voznom parku <br /> poseduje autobuse
+              kapaciteta <br /> od 28 do 61 sedišta koja je moguće <br />{" "}
+              iznajmiti za ekskurzije, izlete, obilaske <br /> grada, privatni
+              prevoz i slično, na svim <br /> destinacijama u zemlji i
+              inostranstvu.
             </p>
           </div>
         </div>

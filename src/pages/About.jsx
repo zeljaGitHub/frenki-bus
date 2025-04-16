@@ -10,7 +10,7 @@ const About = () => {
       <img src="pozadina.png" alt="pozadina" className="pozadina3" />
       <div className="white-top-cover"></div>
       <div className="container-2">
-        <div className="hero-wrapper">
+        <div className="hero-wrapper2">
           <img
             src="hero-img-bus.png"
             alt="Hero Desktop"

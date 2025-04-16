@@ -7,6 +7,10 @@
   margin-bottom: 5rem;
 }
 
+.als-mobile-p1 {
+  display: none;
+}
+
 .images {
   flex: 1;
   display: flex;
@@ -91,6 +95,7 @@
 
 @media (max-width: 900px) {
   .about-section {
+    margin-bottom: 2rem;
     .images {
       order: 2;
     }
@@ -100,17 +105,29 @@
     }
   }
 
+  .red-banner {
+    margin-bottom: 2rem;
+  }
+
   .red-banner::before {
     display: none;
   }
   .text-content p {
     text-align: center;
-    font-size: 20px;
+    font-size: 1.2rem;
   }
   .text-content h4 {
     text-align: center;
+    font-size: 1.4rem;
   }
   .small-image {
     display: none;
+  }
+  .als-desktop-p1 {
+    display: none;
+  }
+  .als-mobile-p1 {
+    display: block;
+    padding-bottom: 3rem;
   }
 }

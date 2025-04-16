@@ -55,7 +55,7 @@
 
 .text-overlay h4 {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-left: -3rem;
 }
 
@@ -107,13 +107,19 @@
   }
   .abuget {
     margin: 0;
+    font-weight: 300;
+    font-size: 4.5rem;
   }
   .abuget2 {
     margin: 0;
+    margin-top: -2rem;
+    margin-left: 7rem;
+    font-weight: 300;
+    font-size: 4rem;
   }
   .Osim-prevoza-putnika {
     margin-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
   }
   .text-overlay {
@@ -124,9 +130,10 @@
     margin: 0;
   }
   .text-overlay p {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1.3rem;
     margin: 0;
+    font-size: 1.2rem;
   }
   .rent-black::before {
     display: none;
@@ -135,7 +142,7 @@
     display: none;
   }
   .rent-2-sekcija {
-    margin-top: 17rem;
+    margin-top: 13rem;
     margin-bottom: 3rem;
   }
   .hero-text-overlay-rent {

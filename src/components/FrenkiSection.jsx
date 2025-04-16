@@ -27,7 +27,7 @@ const FrenkiSection = () => {
             </ul>
           </p>
 
-          <p>
+          <p className="p-three">
             Raspolažemo garažom i parking-prostorom površine 90 ari, <br /> a u
             slučaju eventualnih kvarova koristimo sopstveni servis.
             Predstavništvo firme nalazi se u Leskovcu, u ul. Bulevar
