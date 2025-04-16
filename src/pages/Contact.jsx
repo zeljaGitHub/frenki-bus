@@ -25,7 +25,6 @@ const Contact = () => {
             </h1>
             <div className="overlay-contact-p">
               <p>bane.frenki@gmail.com</p>
-              <p>www.frenkicommerce.rs</p>
               <br />
               <p>+381 16 260 013</p>
               <p>+381 16 280 140</p>
