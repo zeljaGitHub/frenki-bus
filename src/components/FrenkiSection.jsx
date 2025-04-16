@@ -7,13 +7,21 @@ const FrenkiSection = () => {
       <div className="frenki-container">
         {/* Text */}
         <div className="frenki-text">
-          <p className="p-one">
+          <p className="p-one als-desktop-p1">
             Firma <strong>„Frenki-komerc„</strong> osnovana je aprila 1993.
             godine u Zagužanu, <br /> nadomak Leskovca. Osnivači firme su braća
             Zoran i Branislav Ilić. <br /> Osnovna delatnost firme je prevoz
             putnika u domaćem međumesnom i međunarodnom vanlinijskom saobraćaju.
             Pored toga firmi je povereno obavljanje prevoza putnika u
             gradsko-prigradskom saobraćaju na teritoriji grada Leskovca.
+          </p>
+          <p className="p-one als-mobile-p1">
+            Firma <strong>„Frenki-komerc„</strong> osnovana je aprila 1993.
+            godine u Zagužanu, nadomak Leskovca. Osnivači firme su braća Zoran i
+            Branislav Ilić. Osnovna delatnost firme je prevoz putnika u domaćem
+            međumesnom i međunarodnom vanlinijskom saobraćaju. Pored toga firmi
+            je povereno obavljanje prevoza putnika u gradsko-prigradskom
+            saobraćaju na teritoriji grada Leskovca.
           </p>
 
           <p className="p-two">
@@ -27,11 +35,17 @@ const FrenkiSection = () => {
             </ul>
           </p>
 
-          <p className="p-three">
+          <p className="p-three als-desktop-p1">
             Raspolažemo garažom i parking-prostorom površine 90 ari, <br /> a u
             slučaju eventualnih kvarova koristimo sopstveni servis.
             Predstavništvo firme nalazi se u Leskovcu, u ul. Bulevar
             oslobodjenja br. 147 (ELU-centar).
+          </p>
+          <p className="p-three als-mobile-p1">
+            Raspolažemo garažom i parking-prostorom površine 90 ari, a u slučaju
+            eventualnih kvarova koristimo sopstveni servis. Predstavništvo firme
+            nalazi se u Leskovcu, u ul. Bulevar oslobodjenja br. 147
+            (ELU-centar).
           </p>
         </div>
 

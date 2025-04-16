@@ -34,13 +34,12 @@ const AboutSection = () => {
         </p>
 
         <p className="als-mobile-p1">
-          Imamo dugogodišnju i <br /> izuzetno uspešnu saradnju <br /> sa
-          domaćim turističkim agencijama, posebno sa turističkim agencijama
-          „Bavka-turs“, iz Gornjeg Bunibroda i „Vučić-travel“, iz Leskovca.{" "}
-          <br />
-          Prevoz putnika se vrši modernim dvospratnim i visokopodnim autobusima
-          turističke klase marke SETRA i NEOPLAN, sa kompletnom dodatnom opremom
-          (klima, audio i video tehnika, <br /> kafe-bar, toalet…).
+          Imamo dugogodišnju i izuzetno uspešnu saradnju sa domaćim turističkim
+          agencijama, posebno sa turističkim agencijama „Bavka-turs“, iz Gornjeg
+          Bunibroda i „Vučić-travel“, iz Leskovca. Prevoz putnika se vrši
+          modernim dvospratnim i visokopodnim autobusima turističke klase marke
+          SETRA i NEOPLAN, sa kompletnom dodatnom opremom (klima, audio i video
+          tehnika, <br /> kafe-bar, toalet…).
         </p>
 
         <p className="als-desktop-p1">
@@ -52,12 +51,12 @@ const AboutSection = () => {
           budete primetili tokom putovanja.
         </p>
         <p className="als-mobile-p1">
-          Firma „Frenki-komerc„ <br /> u svom kolektivu ima 50 upošljenika
-          prosečne starosti 36 godina. <br /> Iskustvo, stručnost i
-          profesionalni odnos prema obavezama i poslovnim partnerima su
-          garancija da će Vam <br /> sa nama putovanje biti bezbedno i
-          zanimljivo, a nama će biti posebno drago da nam ukažete na eventualne
-          nedostatke koje budete primetili <br /> tokom putovanja.
+          Firma „Frenki-komerc„ u svom kolektivu ima 50 upošljenika prosečne
+          starosti 36 godina. Iskustvo, stručnost i profesionalni odnos prema
+          obavezama i poslovnim partnerima su garancija da će Vam sa nama
+          putovanje biti bezbedno i zanimljivo, a nama će biti posebno drago da
+          nam ukažete na eventualne nedostatke koje budete primetili tokom
+          putovanja.
         </p>
       </div>
     </section>

@@ -13,6 +13,7 @@
 .about-o-nama {
   font-size: 5rem;
   margin-top: -2.9rem;
+  margin-left: 4rem;
 }
 
 @media (max-width: 1000px) {
@@ -35,6 +36,7 @@
   .about-o-nama {
     /* margin-top: -2.5rem; */
     font-size: 3rem;
+    margin-left: 0;
   }
 }
 
