@@ -264,6 +264,10 @@
   justify-content: center;
 }
 
+.div-za-align h6 {
+  margin-left: -2.1rem;
+}
+
 .popusti {
   display: flex;
   flex-direction: column;
@@ -271,7 +275,7 @@
   justify-content: center;
   color: white;
   width: 95%;
-  margin-bottom: 10rem;
+  margin-bottom: 8rem;
 }
 
 .popusti h2 {
@@ -463,4 +467,11 @@
   .popusti {
     margin-bottom: 2rem;
   }
+}
+
+.pozadina {
+  position: absolute;
+  z-index: -5;
+  margin-top: 73.5rem;
+  object-fit: cover;
 }

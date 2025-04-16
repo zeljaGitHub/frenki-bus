@@ -2,16 +2,16 @@
   margin-bottom: 11rem;
 }
 
-.par-reci {
+/* .par-reci {
   font-family: Abuget;
   font-size: 8rem;
   line-height: 0;
   margin-left: 4.25rem;
   color: #ed1c24;
-}
+} */
 
 .about-o-nama {
-  font-size: 7.8rem;
+  font-size: 5rem;
   margin-top: -2.9rem;
 }
 
@@ -54,3 +54,10 @@
     font-size: 1.2rem;
   }
 } */
+
+.pozadina3 {
+  position: absolute;
+  z-index: -5;
+  margin-top: 115rem;
+  object-fit: cover;
+}

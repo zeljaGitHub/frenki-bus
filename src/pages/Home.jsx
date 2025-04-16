@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 const MainPage = () => {
   return (
     <div className="container">
+      <img src="pozadina.png" alt="pozadina" className="pozadina" />
       <div className="white-top-cover"></div>
       <div className="container-2">
         {/* <img src="./hero-img-2.png" alt="hero" className="hero-image" /> */}

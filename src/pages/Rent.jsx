@@ -5,11 +5,12 @@ import Footer from "../components/Footer";
 const Rent = () => {
   return (
     <div className="container">
+      <img src="pozadina.png" alt="pozadina" className="pozadina2" />
       <div className="white-top-cover"></div>
       <div className="container-2">
         <div className="hero-wrapper2">
           <img
-            src="hero-iznajmljivanje.png"
+            src="hero-iznajmljivanje.jpg"
             alt="Hero Desktop"
             className="hero-image desktop-hero hero-iznajmljivanje-img"
           />

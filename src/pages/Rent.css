@@ -10,6 +10,7 @@
 .rent-2-sekcija {
   margin-top: -16rem;
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .rent-black {
@@ -140,4 +141,17 @@
   .hero-text-overlay-rent {
     margin-top: 1rem;
   }
+}
+
+@media (min-width: 1925px) {
+  .hero-text-overlay-rent {
+    right: 22%;
+  }
+}
+
+.pozadina2 {
+  position: absolute;
+  z-index: -5;
+  margin-top: 90rem;
+  object-fit: cover;
 }
