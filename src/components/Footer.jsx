@@ -1,6 +1,7 @@
 import "./Footer.css";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { SiViber } from "react-icons/si"; // Viber nije u Fa, već u Si (Simple Icons)
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { RiFacebookCircleLine } from "react-icons/ri";
+import { SiViber } from "react-icons/si";
 
 const Footer = ({ variant }) => {
   return (
@@ -50,13 +51,29 @@ const Footer = ({ variant }) => {
           <p className="footer-text">Subotom: 08:00h - 14:00h</p>
           <p className="footer-text">Nedeljom ne radimo</p>
           <div className="social-icons">
-            <a
+            {/* <a
               href="https://www.facebook.com/frenkikomerc/?locale=sr_RS"
               className="icon facebook"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaFacebook size={37} />
+            </a>
+            <a
+              href="https://www.facebook.com/frenkikomerc/?locale=sr_RS"
+              className="icon facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <CiFacebook size={40} />
+            </a> */}
+            <a
+              href="https://www.facebook.com/frenkikomerc/?locale=sr_RS"
+              className="icon facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <RiFacebookCircleLine size={38} />
             </a>
             <a
               href="https://www.instagram.com/frenkikomerc/?hl=en"

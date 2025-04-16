@@ -16,7 +16,6 @@
   width: 100%;
   object-fit: cover;
   height: 100%; /* Ensures the image covers the full height of its container */
-  margin-top: 4rem;
 }
 
 /* @media (max-width: 900px) {
@@ -129,5 +128,8 @@
   }
   .overlay-contact-p p {
     font-size: 1.2rem;
+  }
+  .lokacija {
+    margin-top: 5rem;
   }
 }

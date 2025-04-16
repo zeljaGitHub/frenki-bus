@@ -33,7 +33,7 @@
 .hero-text-overlay-rent {
   position: absolute;
   top: 50%;
-  right: 8%;
+  right: 12%;
   transform: translateY(-50%);
   color: white;
   z-index: 2;

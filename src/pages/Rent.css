@@ -113,6 +113,7 @@
   .Osim-prevoza-putnika {
     margin-top: 1rem;
     font-size: 1.5rem;
+    color: black;
   }
   .text-overlay {
     position: static;
@@ -133,7 +134,7 @@
     display: none;
   }
   .rent-2-sekcija {
-    margin-top: 7rem;
+    margin-top: 17rem;
     margin-bottom: 3rem;
   }
 }

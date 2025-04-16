@@ -24,7 +24,7 @@ const Contact = () => {
               Kontaktirajte <span>Nas</span>
             </h1>
             <div className="overlay-contact-p">
-              <p>frenkioffice@gmail.com</p>
+              <p>bane.frenki@gmail.com</p>
               <p>www.frenkicommerce.rs</p>
               <br />
               <p>+381 16 260 013</p>
