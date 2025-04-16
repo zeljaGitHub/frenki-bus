@@ -21,7 +21,16 @@ const MainPage = () => {
             <button onClick={() => window.open("/leskovac.jpg", "_blank")}>
               LESKOVAC
             </button>
-            <button>NIŠ</button>
+            <button
+              onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/red_voznje_leskovac.pdf";
+                link.download = "red_voznje_leskovac.pdf";
+                link.click();
+              }}
+            >
+              NIŠ
+            </button>
             <button>KRAGUJEVAC</button>
             <button>JAGODINA</button>
             <button>ĆUPRIJA</button>

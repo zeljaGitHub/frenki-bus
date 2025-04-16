@@ -1,9 +1,31 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState, useRef, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+  const buttonRef = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        isMenuOpen &&
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        buttonRef.current &&
+        !buttonRef.current.contains(event.target)
+      ) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [isMenuOpen]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -21,32 +43,57 @@ const Navbar = () => {
       {/* Desktop links */}
       <ul className="nav-left">
         <li>
-          <Link to="/" onClick={closeMenu}>
+          <NavLink
+            to="/"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             Početna
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Iznajmljivanje-Autobusa" onClick={closeMenu}>
+          <NavLink
+            to="/Iznajmljivanje-Autobusa"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             Iznajmljivanje Autobusa
-          </Link>
+          </NavLink>
         </li>
       </ul>
 
       <ul className="nav-right">
         <li>
-          <Link to="/O-nama" onClick={closeMenu}>
+          <NavLink
+            to="/O-nama"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             O nama
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Kontakt" onClick={closeMenu}>
+          <NavLink
+            to="/Kontakt"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             Kontakt
-          </Link>
+          </NavLink>
         </li>
       </ul>
 
       {/* Hamburger */}
       <button
+        ref={buttonRef}
         className={`hamburger ${isMenuOpen ? "active" : ""}`}
         onClick={toggleMenu}
         aria-label="Toggle menu"
@@ -59,26 +106,50 @@ const Navbar = () => {
       <img src="/logo-white.png" alt="logo" className="mobile-logo" />
 
       {/* Mobile menu */}
-      <ul className={`mobile-menu ${isMenuOpen ? "active" : ""}`}>
+      <ul ref={menuRef} className={`mobile-menu ${isMenuOpen ? "active" : ""}`}>
         <li>
-          <Link to="/" onClick={closeMenu}>
+          <NavLink
+            to="/"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             Početna
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Iznajmljivanje-Autobusa" onClick={closeMenu}>
+          <NavLink
+            to="/Iznajmljivanje-Autobusa"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             Iznajmljivanje Autobusa
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/O-nama" onClick={closeMenu}>
+          <NavLink
+            to="/O-nama"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             O nama
-          </Link>
+          </NavLink>
         </li>
         <li>
-          <Link to="/Kontakt" onClick={closeMenu}>
+          <NavLink
+            to="/Kontakt"
+            onClick={closeMenu}
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
             Kontakt
-          </Link>
+          </NavLink>
         </li>
       </ul>
     </nav>

@@ -228,3 +228,29 @@
     display: none;
   }
 }
+
+/* Shared NavLink styles */
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #da1a21;
+  padding-bottom: 3px;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #da1a21;
+  padding-bottom: 3px;
+}
+
+/* Mobile menu specific */
+.mobile-menu .nav-link {
+  color: #111;
+  text-decoration: none;
+}
+
+.mobile-menu .nav-link.active {
+  color: #da1a21;
+}
