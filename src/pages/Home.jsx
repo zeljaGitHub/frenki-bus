@@ -22,25 +22,32 @@ const MainPage = () => {
             <button onClick={() => window.open("/leskovac.jpg", "_blank")}>
               LESKOVAC
             </button>
-            <button
-              onClick={() => {
-                const link = document.createElement("a");
-                link.href = "/red_voznje_leskovac.pdf";
-                link.download = "red_voznje_leskovac.pdf";
-                link.click();
-              }}
-            >
+            <button onClick={() => window.open("/nis.jpg", "_blank")}>
               NIŠ
             </button>
-            <button>KRAGUJEVAC</button>
-            <button>JAGODINA</button>
-            <button>ĆUPRIJA</button>
+            <button onClick={() => window.open("/kragujevac.jpg", "_blank")}>
+              KRAGUJEVAC
+            </button>
+            <button onClick={() => window.open("/jagodina.jpg", "_blank")}>
+              JAGODINA
+            </button>
+            <button onClick={() => window.open("/cuprija.jpg", "_blank")}>
+              ĆUPRIJA
+            </button>
           </div>
           <div className="buttons">
-            <button>BEOGRAD</button>
-            <button>SVILAINAC</button>
-            <button>POŽAREVAC</button>
-            <button>PARAĆIN</button>
+            <button onClick={() => window.open("/beograd.jpg", "_blank")}>
+              BEOGRAD
+            </button>
+            <button onClick={() => window.open("/svilajnac.jpg", "_blank")}>
+              SVILAJNAC
+            </button>
+            <button onClick={() => window.open("/pozarevac.jpg", "_blank")}>
+              POŽAREVAC
+            </button>
+            <button onClick={() => window.open("/paracin.jpg", "_blank")}>
+              PARAĆIN
+            </button>
           </div>
         </div>
         <div className="split-container">
