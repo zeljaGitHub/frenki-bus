@@ -40,6 +40,13 @@
   }
 }
 
+@media (min-width: 2560px) {
+  .about-o-nama {
+    margin-top: -10.9rem;
+    margin-left: 19rem;
+  }
+}
+
 /* @media (max-width: 1000px) {
   .contact-text-overlay-h1 {
     font-size: 2rem;
