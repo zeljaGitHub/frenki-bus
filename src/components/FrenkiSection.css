@@ -134,23 +134,23 @@
     margin-bottom: -2rem;
   }
   .frenki-text {
-    text-align: center;
+    text-align: left;
   }
   .frenki-container p {
     padding-left: 0;
   }
   .p-one {
-    font-size: 1.2rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.3;
     padding-bottom: 3rem;
   }
   .p-two {
-    font-size: 1.2rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.3;
     padding-bottom: 3rem;
   }
   .p-three {
-    font-size: 1.2rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.3;
   }
 }

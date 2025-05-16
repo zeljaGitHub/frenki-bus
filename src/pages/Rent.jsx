@@ -47,7 +47,7 @@ const Rent = () => {
               izlete, <br /> obilaske grada, privatni prevoz i slično, na svim
               destinacijama <br /> u zemlji i inostranstvu.
             </p>
-            <p className="als-mobile-p1">
+            <p className="als-mobile-p1 za-align-left">
               Frenki line u svom voznom parku poseduje autobuse kapaciteta od 28
               do 61 sedišta koja je moguće iznajmiti za ekskurzije, izlete,
               obilaske grada, privatni prevoz i slično, na svim destinacijama u

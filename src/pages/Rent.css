@@ -119,7 +119,7 @@
   }
   .Osim-prevoza-putnika {
     margin-top: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: black;
   }
   .text-overlay {
@@ -139,7 +139,7 @@
     display: none;
   }
   .rent-black h4 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .lotsofbuses {
     display: none;
@@ -150,6 +150,10 @@
   }
   .hero-text-overlay-rent {
     margin-top: 1rem;
+  }
+  .za-align-left {
+    text-align: left;
+    font-size: 1rem;
   }
 }
 
